@@ -1,0 +1,58 @@
+body {
+    border-radius: 8px; /*rounded image corners*/
+    background-image: url("images/stormyrainbow.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%; /*makes background take up entire screen*/
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+main	{
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	text-align: justify;
+	border-radius: 20px; /*rounded image corners*/
+    background-color: rgba(29, 39, 48, 0.85); /*slightly transparent background color*/
+    padding: 20px;
+}
+
+.quotation  {
+    font-style: italic;
+    font-size: .90em;
+}
+
+img {
+    border-radius: 8px; /*rounded image corners*/
+}
+
+#main_picture {
+    width: 90%;
+    align-content: center;
+
+}
+
+figure	{
+	float: right;
+    width: 30%;
+		
+}
+
+footer	{
+	clear: both;
+	text-align: center;
+	padding-right:38px;
+	padding-top: -5px;
+    border-top: 2px solid #C5B4B2;
+	border: center;
+}
+
+a:link, a:visited	{
+	color: #df0973;
+	text-decoration:none;
+}
+		
+a:focus, a:hover	{
+	color:#ae1a5d;
+	text-decoration:none;
+}
