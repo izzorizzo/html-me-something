@@ -4,6 +4,8 @@ body {
     background-attachment: fixed;
     background-size: 100% 100%; /*makes background take up entire screen*/
     font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #e2d9db;
+    font-size: .95em;
 }
 
 main	{
@@ -12,9 +14,12 @@ main	{
 	padding-top: 20px;
 	padding-bottom: 15px;
 	text-align: justify;
-	border-radius: 20px; /*rounded image corners*/
+	border-radius: 20px 50px 20px 50px; /*rounded image corners*/
     background-color: rgba(29, 39, 48, 0.85); /*slightly transparent background color*/
-    padding: 20px;
+}
+
+article {
+    padding: 30px 100px 30px 100px;
 }
 
 .quotation  {
@@ -34,8 +39,11 @@ img {
 
 figure	{
 	float: right;
-    width: 30%;
-		
+    width: 30%;	
+}
+
+figcaption {
+    font-size: .70em;
 }
 
 footer	{
@@ -45,6 +53,7 @@ footer	{
 	padding-top: -5px;
     border-top: 2px solid #C5B4B2;
 	border: center;
+    border-width: medium;
 }
 
 a:link, a:visited	{
