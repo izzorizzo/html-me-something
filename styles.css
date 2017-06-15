@@ -16,10 +16,17 @@ main	{
 	text-align: justify;
 	border-radius: 20px 50px 20px 50px; /*rounded image corners*/
     background-color: rgba(29, 39, 48, 0.85); /*slightly transparent background color*/
+    border:3px solid #ada4a9;
 }
 
 article {
     padding: 30px 100px 30px 100px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 175%; 
+    color: #FB445B;
 }
 
 .quotation  {
@@ -33,13 +40,15 @@ img {
 
 #main_picture {
     width: 90%;
-    align-content: center;
-
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 figure	{
-	float: right;
-    width: 30%;	
+    float: right;
+    width: 100px;
+    padding-right: 50px;	
 }
 
 figcaption {
@@ -57,7 +66,7 @@ footer	{
 }
 
 a:link, a:visited	{
-	color: #df0973;
+	color: #FB445B;
 	text-decoration:none;
 }
 		
